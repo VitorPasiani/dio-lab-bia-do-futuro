@@ -1,18 +1,23 @@
 # Fin - Agente Financeiro Inteligente com IA Generativa
 
-## Contexto
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+
+## 📌 Contexto
 
 Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste projeto, desenvolvido como desafio final do bootcamp GenAI & Dados, foi criado o **Fin**: um agente financeiro que utiliza IA Generativa para auxiliar na gestão do fluxo de caixa de uma escola de danças. 
 
 O Fin atua diretamente para:
-- **Antecipar necessidades** calculando expectativas de déficit ou superávit em um cenário com muitas transações não programadas.
-- **Personalizar** planos de ação com base no histórico de receitas e despesas da escola.
-- **Cocriar soluções** financeiras de forma consultiva e acessível para os gestores.
-- **Garantir segurança** limitando-se estritamente aos dados fornecidos pelo banco de dados, evitando alucinações.
+- **Antecipar necessidades:** calculando expectativas de déficit ou superávit em um cenário com muitas transações não programadas.
+- **Personalizar planos de ação:** com base no histórico de receitas e despesas da escola.
+- **Cocriar soluções:** atuando de forma consultiva e acessível para os gestores.
+- **Garantir segurança:** limitando-se estritamente aos dados fornecidos pelo banco de dados, evitando alucinações.
 
 ---
 
-## O Que Foi Entregue
+## 🚀 O Que Foi Entregue
 
 ### 1. Documentação do Agente
 
@@ -55,7 +60,8 @@ Protótipo totalmente funcional executado de forma local, o que garante a privac
 📁 **Código Fonte:** [`src/app.py`](./src/app.py)
 
 **Como rodar o projeto localmente:**
-```bash
+
+```
 # 1. Instale as dependências
 pip install streamlit pandas requests
 
@@ -67,24 +73,28 @@ python -m streamlit run src/app.py
 ```
 
 ### 5. Avaliação e Métricas
+
 A qualidade do agente foi validada através de uma bateria de 5 cenários de teste reais:
 
-Consulta de gastos específicos (Assertividade validada)
+✅ Consulta de gastos específicos: Assertividade validada.
 
-Geração de planos de ação para captar matrículas (Alta coerência e criatividade)
+✅ Geração de planos de ação para captar matrículas: Alta coerência e criatividade.
 
-Perguntas fora do escopo (Segurança validada)
+✅ Perguntas fora do escopo: Segurança validada.
 
-Informação inexistente no banco (Segurança anti-alucinação validada)
+✅ Informação inexistente no banco: Segurança anti-alucinação validada.
 
-Projeções de longo prazo (Tratamento correto de insuficiência de dados)
+✅ Projeções de longo prazo: Tratamento correto de insuficiência de dados.
 
-6. Pitch
+### 6. Pitch
 Apresentação estilo elevador (3 minutos) abordando a dor dos gestores da escola, a solução que o Fin traz na prática, uma demonstração visual da ferramenta e o impacto que a automação gera na otimização de tempo.
 
-🎥 Vídeo de Apresentação: (https://drive.google.com/file/d/1eugrOElp3u4qhIMSlUzoIVkmRLRPzDP1/view?usp=sharing)
+[🎥 Assistir ao Vídeo de Apresentação](https://drive.google.com/file/d/1eugrOElp3u4qhIMSlUzoIVkmRLRPzDP1/view?usp=sharing)
 
-📁 projeto-final/
+### 🗂️ Estrutura do Projeto
+
+```text
+projeto-final/
 │
 ├── 📄 README.md                      # Documentação principal
 │
